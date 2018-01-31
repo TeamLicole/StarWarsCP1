@@ -1,4 +1,5 @@
 body {
+        height: 100%;
 	background-color: black;
 }
 
@@ -61,4 +62,11 @@ p {
 
 a {
   color: white;
+}
+
+footer {
+postion: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
 }
