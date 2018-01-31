@@ -41,6 +41,7 @@ h1 {
 
 h2 {
 	color: white;
+	padding-left: 20px;
 }
 
 img {
@@ -61,4 +62,17 @@ p {
 
 a {
   color: white;
+}
+
+section {
+	display: flex;
+}
+
+aside {
+	flex: 1;
+	text-align: right;
+}
+
+article {
+	flex: 4;
 }
