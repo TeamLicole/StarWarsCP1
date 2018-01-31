@@ -3,10 +3,6 @@ body {
         text-align: center;
 }
 
-footer {
-text-align: left;
-}
-
 nav ul {
 	list-style-type: none;
   margin: 0;
@@ -19,6 +15,9 @@ nav li {
 	float: left;
 }
 
+footer {
+text-align: left;
+}
 nav li a {
 	display: block;
 	color: white;
@@ -69,3 +68,7 @@ text-align: left;
 a {
   color: white;
 }
+
+
+
+
