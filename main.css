@@ -90,6 +90,6 @@ article {
 form {
    color: white; 
    display: block;
-   text-alignment: center;
-    margin-top: 3em;
+  margin: 0 auto; 
+  text-alignment: center;
 }
