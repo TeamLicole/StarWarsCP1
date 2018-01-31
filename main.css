@@ -86,3 +86,10 @@ aside {
 article {
 	flex: 4;
 }
+
+form {
+   color: white; 
+   display: block;
+   width: 300px;
+   margin: 0 auto;
+}
