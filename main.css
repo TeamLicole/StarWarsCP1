@@ -7,7 +7,7 @@ nav ul {
   margin: 0;
   padding: 0;
 	overflow: hidden;
-	background-color: #2661F7;
+	background-color: grey;
 }
 
 nav li {
@@ -28,18 +28,27 @@ nav li a:hover {
 }
 
 nav a.active {
-  background-color: blue;
+  background-color: darkgrey;
   color: black;
 }
 
 h1 {
   text-align: center;
-  font-size: 40px;
-  color: white;
+  font-size: 100px;
+  color: yellow;
+  font-style: italic;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
 }
