@@ -67,6 +67,7 @@ a {
 }
 
 footer {
+text-align: left;
 postion: absolute;
 bottom: 0;
 width: 100%;
