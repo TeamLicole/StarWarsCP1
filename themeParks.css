@@ -3,6 +3,7 @@ body {
         text-align: center;
 }
 
+
 nav ul {
 	list-style-type: none;
   margin: 0;
@@ -44,6 +45,7 @@ h {
   text-align: center;
   font-size: 50px;
   color: yellow;
+  padding: 20px;
   font-style: italic;
 }
 
@@ -61,6 +63,8 @@ img {
 }
 
 p {
+  font-size: 60px;
+  padding: 100px;
   color: white;
 }
 
