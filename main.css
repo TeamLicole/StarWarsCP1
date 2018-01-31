@@ -39,6 +39,10 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+	color: white;
+}
+
 img {
   display: block;
   margin-left: auto;
