@@ -1,28 +1,73 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1px;
-  grid-row-gap: 1px;
-  background-color: black;
+
+body {
+	background-color: black;
 }
 
-body,html {
-  padding: 0;
+nav ul {
+	list-style-type: none;
   margin: 0;
+  padding: 0;
+	overflow: hidden;
+	background-color: grey;
 }
 
-.letter {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  font-size: 70px;
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #111;
   color: white;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
-  text-align;
+}
+
+nav a.active {
+  background-color: darkgrey;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: yellow;
+  font-style: italic;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
 }
